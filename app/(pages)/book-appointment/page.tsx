@@ -1,5 +1,5 @@
 function BookAppointment() {
-  return <main>Doctor's Appointment</main>;
+  return <section>Doctor's Appointment</section>;
 }
 
 export default BookAppointment;

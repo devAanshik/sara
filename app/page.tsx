@@ -13,7 +13,7 @@ const links = [
 
 function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center gap-8">
+    <section className="flex flex-col items-center justify-center min-h-screen gap-8">
       <div className="text-9xl">🫀</div>
       <div className="text-center text-foreground/70 text-pretty max-w-lg">
         <h1 className="text-4xl mb-4 text-foreground">
@@ -33,14 +33,14 @@ function Home() {
               flex-1 max-w-50 px-4 py-6
               border-t-2 border-foreground/12 shadow-xs shadow-black/20 bg-linear-to-b from-foreground/5 to-foreground/1 rounded-xl
               text-center text-pretty
-              hover:scale-98 cursor-pointer
+              hover:scale-98 cursor-pointer transition ease-out
             `}
           >
             {link.name}
           </Link>
         ))}
       </ul>
-    </main>
+    </section>
   );
 }
 

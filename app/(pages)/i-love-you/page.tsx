@@ -1,5 +1,5 @@
 function ILoveYouCard() {
-  return <main>I love you baby!!!</main>;
+  return <section>I love you baby!!!</section>;
 }
 
 export default ILoveYouCard;
