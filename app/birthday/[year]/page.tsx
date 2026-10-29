@@ -13,5 +13,7 @@ export default function Page() {
 
   if (!item) return <>This is not your birthday</>;
 
-  return item.page;
+  const Page = item.page;
+
+  return <Page />;
 }
